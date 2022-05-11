@@ -50,10 +50,10 @@ class MarvelCharactersAdapter(private val onClick: (MarvelCharacter) -> Unit) :
 
 object MarvelCharacterDiffCallback : DiffUtil.ItemCallback<MarvelCharacter>() {
     override fun areItemsTheSame(oldItem: MarvelCharacter, newItem: MarvelCharacter): Boolean {
-        return oldItem == newItem
+        return oldItem.name == newItem.name
     }
 
     override fun areContentsTheSame(oldItem: MarvelCharacter, newItem: MarvelCharacter): Boolean {
-        return oldItem.name == newItem.name
+        return oldItem == newItem
     }
 }
