@@ -1,6 +1,4 @@
-# Android MVVM Sample
-
-🚧 work in progress 🚧 --> see below for still-pending items
+# Android MVVM Sample (unmaintained: see newer samples on this account)
 
 ## Included so far
 
@@ -10,8 +8,7 @@
 - Retrofit2 + Moshi + OkHttpClient for getting data from the network, using private key authentication
 - Dependency injection with Hilt
 
-## Still Pending 
-
+## The Next steps would have been:
 - Implement detail screen and use Jetpack Navigation
 - The error handling is missing: show error message
 - Cover usecases with unit tests, by mocking the repository
